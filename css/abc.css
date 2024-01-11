@@ -1,0 +1,181 @@
+:root{
+    --pr-color1:#ff7b00;
+    --pr-color2:#ffb876;
+    --pr-color3:#ffffff;
+
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--pr-color3);
+}
+/*navbar*/
+.navbar-brand{
+    font-weight: 400;
+    font-size: 15px; 
+    display: flex;
+}
+.brand-nama{
+    padding-top: 10px;
+}
+.bg-menu{
+    background-color: var(--pr-color1);
+    width: auto;
+    height: 75px;
+}
+ h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--pr-color9);
+    text-transform: uppercase;
+}
+ p {
+    font-size: 7PX;
+    font-weight: 400;
+    color:var(--pr-color5);
+    text-transform: uppercase;
+}
+.container-breadcrumb{
+    background-color: var(--pr-color3);
+    width: auto;
+    height:50px;
+}
+.breadcrumb i,li{
+    color: var(--pr-color9);
+}
+/*slider*/
+.carousel{
+    color: #000;
+}
+ 
+.carousel-item img {
+    height: auto;
+    
+}
+
+/*pengumuman*/
+.card {
+    flex-direction: row;
+    border: 0;
+    background-color: var(--pr-color2);
+    color: var(--pr-color9);
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.18);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text-section {
+    max-width: 60%;
+}
+.card-title{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.card-text {
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    font-size: 16px;
+}
+.link a{
+    color: var(--pr-color);
+    text-decoration: none;
+} 
+/*isi*/
+.judul a{
+    color: var(--pr-color1);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 25px;
+}
+.judul h1{
+    color: var(--pr-color1);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 25px;
+}
+.card-header{
+    background-color: var(--pr-color);
+    color: #ffffff
+}
+.card-header a{
+    color: var(--pr-coloe);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 25px;
+
+}
+
+.list-unstyled{
+    color: var(--pr-color);
+}
+
+.text-section h1{
+    font-size: 10px;
+
+}
+.map-container-4{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+.map-container-4 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+.footers-info{
+    background-color: var(--pr-color2);
+    flex-direction: row;
+    border: 0;
+    border-radius: 10px;
+    color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.footers-info p{
+    color: #ffffff;
+}
+footer{
+    background-color: var(--pr-color1);
+    color: #ffffff;
+    text-decoration: none;
+}
+footer p{
+    color: #ffffff;
+}
+.table-bar{
+    background-color: var(--pr-color);
+    color: #000000;
+    text-align: center;
+}
+.table-isi{
+    color: var(--pr-color);
+    text-align: center;
+    font-size: 10px;
+}
+.akhir{
+    background-color: var(--pr-color);
+    color: #ffffff;
+}
+.carousel-inner{
+    background-color: var(--pr-color7);
+    padding-top: 10px;
+}
+.carousel-caption h6{
+    font-size: 20px;
+    color: var(--pr-color1);
+    font-weight: 700;
+}
+.carousel-caption p{
+    font-size: 10px;
+    color: var(--pr-color2);
+    font-weight: 500;
+}
